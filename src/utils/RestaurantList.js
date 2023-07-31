@@ -1,4 +1,4 @@
-const resList = [
+const listOfRestaurants = [
   {
     info: {
       id: "510883",
@@ -766,4 +766,4 @@ const resList = [
     widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
 ];
-export default resList;
+export default listOfRestaurants;
