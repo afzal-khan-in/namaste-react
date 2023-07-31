@@ -19,3 +19,20 @@
 - HTTPs
 - Tree shaking - remove unused code
 - Different dev and prod builds
+
+# Food App Structure
+
+- Header
+- -Logo
+- -Nav items
+- Body
+- - Search
+- - Restaurant Container
+- - Restaurant Card
+-      - Img
+-      - Name of restaurant, star rating, cuisine, delivery time
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
