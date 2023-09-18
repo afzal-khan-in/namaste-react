@@ -1,6 +1,7 @@
 import Logo from "../../assets/images/logo.webp";
-
+import { useState } from "react";
 const Header = () => {
+  const [btnName, setBtnName] = useState("Login");
   return (
     <div className="header">
       <div className="logo-container">
@@ -13,6 +14,14 @@ const Header = () => {
           <li>Contact us</li>
           <li>Cart</li>
         </ul>
+        <button
+          className="login-button"
+          onClick={() => {
+            setBtnName("Logout");
+          }}
+        >
+          {btnName}
+        </button>
       </div>
     </div>
   );

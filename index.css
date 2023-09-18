@@ -17,6 +17,10 @@ h1,h2,h3,h4,h5,h6{
 .header > .logo-container > .logo{
     width: 150px;
 }
+.header > .nav-items {
+    display: flex;
+    align-items: center;
+}
 .header > .nav-items > ul{
     display: flex;
     list-style: none;
@@ -28,17 +32,24 @@ h1,h2,h3,h4,h5,h6{
 .body-container{
     padding: 0 1rem;
 }
-.res-container{
+.res-container, .shimmer-container{
     display: flex;
     flex-wrap: wrap;
 }
-.res-card{
+.shimmer-container{
+    margin-top: 1rem;
+}
+.res-card, .shimmer-cards{
     width: 280px;
     height: 100%;
     border: 1px solid #d3d5df;
     box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
     padding: 20px;
     margin: 5px;
+}
+.shimmer-cards{
+    background-color: #ddd;
+    height: 300px;
 }
 .res-card img{
     height: 200px;
@@ -64,4 +75,17 @@ h3.res-text{
 }
 .filter{
     padding: 10px;
+}
+.login-button{
+    height: 50px;
+    background: #ff4b46;
+    border-radius: 5px;
+    border-color: #ff4b46;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+.login-button:hover{
+    background: #ff2764;
+    border-color: #ff2764;
 }
